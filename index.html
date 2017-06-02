@@ -4,7 +4,7 @@
 <head>
     <title>Patrick Hubbard | Web Developer</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <script src='app.js'></script>
 </head>
@@ -52,12 +52,12 @@
     <section id='about'>
         <div class='container'>
             <div class='row'>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-2'>
                     <h1>About</h1>
                     <p>I am a web developer and recent graduate of the Front End Web Development bootcamp at <a href="https://www.thinkful.com/" target="_blank">Thinkful</a> I enjoy coding because it is a way for me to create something new and I get to easily share it with the world. It's always exciting finding new APIs to navigate and find new uses for. Other activities i find thrilling, besides coding, is tinkering with computer hardware, playing video games, swimming, and working on my car.
                     </p>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-2-md'>
                     <img src="" alt="">
                 </div>
             </div>
@@ -65,55 +65,129 @@
     </section>
 
     <!--Projects-->
-    <section id='projects'>
+    <span id='projects'></span>
+    <section class='projects'>
         <div class='container'>
             <div class='projectHead'>
                 <h1>Projects</h1>
             </div>
             <div class='row'>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/DeadTone.png" alt="lyricFinder">
+                            <h3>DeadTone Lyrics</h3>
+                            <button id='modalBtn'>
+                                <img src="images/DeadTone.png" alt="lyricFinder">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/DeadTone.png" alt="lyricFinder">
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/deweybooks.png" alt="bookFinder">
+                            <h3>DeweyBooks</h3>
+                            <button id='modalBtn'>
+                                <img src="images/deweybooks.png" alt="bookFinder">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/deweybooks.png" alt="bookFinder">
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/FlicFinder.png" alt="movieFinder">
+                            <h3>FlicFinder</h3>
+                            <button id='modalBtn'>
+                                <img src="images/FlicFinder.png" alt="movieFinder">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/FlicFinder.png" alt="movieFinder">>
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/weathercheck.png" alt="react">
+                            <h3>WeatherCheck</h3>
+                            <button id='modalBtn'>
+                                <img src="images/weathercheck.png" alt="react">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/weathercheck.png" alt="react">
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/youtubeApi.png" alt="youtube">
+                            <h3>Youtube API</h3>
+                            <button id='modalBtn'>
+                                <img src="images/youtubeApi.png" alt="youtube">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/youtubeApi.png" alt="youtube">
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-6 col-sm-6'>
+                <div class='col-6'>
                     <div class='block'>
                         <div class='imgWrapper'>
-                            <img src="images/gameofthrones.png" alt="quiz">
+                            <h3>Game Of Thrones Quiz</h3>
+                            <button id='modalBtn'>
+                                <img src="images/gameofthrones.png" alt="quiz">
+                            </button>
+                            <div id='modal' class='modal'>
+                                <div class='modal-content'>
+                                    <span class='close'>&times</span>
+                                    <img src="images/gameofthrones.png" alt="quiz">
+                                    <div class='demobtn'>
+                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -122,37 +196,51 @@
         <div class='container'>
             <div class='row'>
                 <h1>Skills</h1>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/HTML5.png" alt="html">
+                    <p>Indepth tagging</p>
                 </div>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/CSS3.png" alt="css">
+                    <p>Advanced styling</p>
                 </div>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/javascript.png" alt="js">
+                    <p>Creating powerful functions and precise targeting and event handeling</p>
                 </div>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/jquery.png" alt="jquery">
+                    <p></p>
                 </div>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/jsnode.png" alt="jsnode">
+                    <p>connecting the backend with the frontend</p>
                 </div>
-                <div class='col-md-4 col-xs-12'>
-                    <img src="" alt="">
+                <div class='col-4'>
+                    <img src="images/logos/mongodb.png" alt="mongo">
+                    <p>utilizing databases to store information for later use</p>
+                </div>
+                <div class='col-4'>
+                    <img src="images/logos/react.png" alt="react">
+                    <p>The new view layer</p>
+                </div>
+                <div class='col-4'>
+                    <img src="images/logos/git.png" alt="git">
+                    <p>Handeling version control and backing up progress often</p>
                 </div>
             </div>
         </div>
     </section>
     <!--Footer-->
-    <footer id='footer'>
-        <div class='col-md-8'>
+    <footer id='footer '>
+        <div class='col-md-8 '>
             <p class=footText>Copyright: 2017 - Patrick Hubbard</p>
         </div>
-        <div class='col-md-4'>
-            <ul class='contact'>
+        <div class='col-md-4 '>
+            <ul class='contact '>
                 <li>
                     <a href="mailto:phubbard89@gmail.com?subject=Hello" target="_top">
-                        <i class='email'></i>
+                        <i class='email '></i>
                     </a>
                 </li>
                 <li>
@@ -162,7 +250,7 @@
                 </li>
                 <li>
                     <a href="https://github.com/0peron?tab=repositories" target="_blank">
-                        <i class='github'></i>
+                        <i class='github '></i>
                     </a>
                 </li>
             </ul>

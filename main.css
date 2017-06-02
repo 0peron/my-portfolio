@@ -1,5 +1,8 @@
+/*Navigation*/
+
 body {
     font-family: 'Maven Pro', sans-serif;
+    margin: 0;
 }
 
 .navHeaderFixed {
@@ -13,7 +16,7 @@ body {
     border-bottom: 1px solid #dedede;
     color: whitesmoke;
     background: black;
-    height: 60px;
+    height: 40px;
     top: 0;
 }
 
@@ -62,8 +65,12 @@ a {
     background-color: transparent;
 }
 
+#HeroImg {
+    background-size: cover;
+}
+
 .hero-image {
-    margin-top: 50px;
+    margin-top: 30px;
     background: url("images/nature-mountain.jpg") 50% no-repeat;
     background-position: 0 50px;
     background-size: cover;
@@ -86,5 +93,113 @@ a {
 }
 
 h1 {
+    text-align: center;
+}
+
+
+/*modal section*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*projects section*/
+
+#projects {
+    width: 100%;
+    height: 100px;
+}
+
+.projects h1 {
+    margin-top: 150px;
+}
+
+.col-2 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.row {
+    text-align: center;
+}
+
+.block {
+    width: 450px;
+}
+
+.col-6 {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.col-6 img {
+    width: 450px;
+    height: 250px;
+    display: inline-block;
+}
+
+.block {
+    height: 250px;
+    display: inline-block;
+}
+
+.imgWrapper {
+    height: 250px;
+    display: inline-block;
+}
+
+
+/*skills section*/
+
+.col-4 {
+    width: 25%;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.col-4 img {
+    height: 100px;
+}
+
+.col-4 p {
     text-align: center;
 }
