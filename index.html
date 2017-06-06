@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-    <script src='app.js'></script>
 </head>
 
 <body>
@@ -76,13 +75,16 @@
                     <div class='block'>
                         <div class='imgWrapper'>
                             <h3>DeadTone Lyrics</h3>
-                            <button id='modalBtn'>
+                            <button id='modalBtn' class='modalBtn' data-modal='#modalOne'>
                                 <img src="images/DeadTone.png" alt="lyricFinder">
                             </button>
-                            <div id='modal' class='modal'>
+                            <div id='modalOne' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
                                     <img src="images/DeadTone.png" alt="lyricFinder">
+                                    <div class='github'>
+                                        <a href="https://github.com/0peron/api-capstone-project" target="_blank">github</a>
+                                    </div>
                                     <div class='demobtn'>
                                         <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
                                     </div>
@@ -95,13 +97,16 @@
                     <div class='block'>
                         <div class='imgWrapper'>
                             <h3>DeweyBooks</h3>
-                            <button id='modalBtn'>
+                            <button id='modalBtn' class='modalBtn' data-modal='#modalTwo'>
                                 <img src="images/deweybooks.png" alt="bookFinder">
                             </button>
-                            <div id='modal' class='modal'>
+                            <div id='modalTwo' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
                                     <img src="images/deweybooks.png" alt="bookFinder">
+                                    <div class='github'>
+                                        <a href="https://github.com/0peron/final-capstone" target="_blank">github</a>
+                                    </div>
                                     <div class='demobtn'>
                                         <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
                                     </div>
@@ -114,13 +119,16 @@
                     <div class='block'>
                         <div class='imgWrapper'>
                             <h3>FlicFinder</h3>
-                            <button id='modalBtn'>
+                            <button id='modalBtn' class='modalBtn' data-modal='#modalThree'>
                                 <img src="images/FlicFinder.png" alt="movieFinder">
                             </button>
-                            <div id='modal' class='modal'>
+                            <div id='modalThree' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
-                                    <img src="images/FlicFinder.png" alt="movieFinder">>
+                                    <img src="images/FlicFinder.png" alt="movieFinder">
+                                    <div class='github'>
+                                        <a href="https://github.com/0peron/node-movie-capstone" target="_blank">github</a>
+                                    </div>
                                     <div class='demobtn'>
                                         <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
                                     </div>
@@ -133,53 +141,20 @@
                     <div class='block'>
                         <div class='imgWrapper'>
                             <h3>WeatherCheck</h3>
-                            <button id='modalBtn'>
+                            <button id='modalBtn' class='modalBtn' data-modal='#modalFour'>
                                 <img src="images/weathercheck.png" alt="react">
                             </button>
-                            <div id='modal' class='modal'>
+                            <div id='modalFour' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
                                     <img src="images/weathercheck.png" alt="react">
-                                    <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-6'>
-                    <div class='block'>
-                        <div class='imgWrapper'>
-                            <h3>Youtube API</h3>
-                            <button id='modalBtn'>
-                                <img src="images/youtubeApi.png" alt="youtube">
-                            </button>
-                            <div id='modal' class='modal'>
-                                <div class='modal-content'>
-                                    <span class='close'>&times</span>
-                                    <img src="images/youtubeApi.png" alt="youtube">
-                                    <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-6'>
-                    <div class='block'>
-                        <div class='imgWrapper'>
-                            <h3>Game Of Thrones Quiz</h3>
-                            <button id='modalBtn'>
-                                <img src="images/gameofthrones.png" alt="quiz">
-                            </button>
-                            <div id='modal' class='modal'>
-                                <div class='modal-content'>
-                                    <span class='close'>&times</span>
-                                    <img src="images/gameofthrones.png" alt="quiz">
-                                    <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                    <div class='details'>
+                                        <div class='github'>
+                                            <a href="https://github.com/0peron/react-capstone" target="_blank">github</a>
+                                        </div>
+                                        <div class='demobtn'>
+                                            <a href="https://0peron.github.io/api-capstone-project/" target="_blank">Demo</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -256,6 +231,9 @@
             </ul>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
