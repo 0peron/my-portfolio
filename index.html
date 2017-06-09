@@ -5,6 +5,7 @@
     <title>Patrick Hubbard | Web Developer</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 </head>
 
@@ -15,7 +16,7 @@
         <div class='header-container'>
             <div class="navName">
                 <a href="index.html">
-                    <p>Hubbard</p>
+                    <img src="images/logos/hubbard.png" alt="hubbard">
                 </a>
             </div>
             <nav class='navRight'>
@@ -42,7 +43,7 @@
             <div class='hero-text'>
                 <h1>I am Patrick Hubbard</h1>
                 <p>And I'm a WebDeveloper</p>
-                <button><a class='smooth-scroll' href="#projects">Projects</a></button>
+                <button class="heroBtn"><a class='smooth-scroll' href="#projects">View My Projects</a></button>
             </div>
         </div>
     </section>
@@ -75,6 +76,7 @@
                             <button id='modalBtn' class='modalBtn' data-modal='#modalOne'>
                                 <img src="images/DeadTone.png" alt="lyricFinder">
                             </button>
+                            <p>DeadTone Lyrics allows users to search for song titles and then be able to look up the lyrics for the song.</p>
                             <div id='modalOne' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
@@ -83,7 +85,7 @@
                                         <a href="https://github.com/0peron/api-capstone-project" target="_blank">github</a>
                                     </div>
                                     <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                        <a href="https://0peron.github.io/api-capstone-project/" target="_blank">Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,6 +99,7 @@
                             <button id='modalBtn' class='modalBtn' data-modal='#modalTwo'>
                                 <img src="images/deweybooks.png" alt="bookFinder">
                             </button>
+                            <p>DeweyBooks allows you to search the google book api for a selection of books that you might be intereseted in. You can see the author, genre, as well as a brief disciption of the book.</p>
                             <div id='modalTwo' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
@@ -105,7 +108,7 @@
                                         <a href="https://github.com/0peron/final-capstone" target="_blank">github</a>
                                     </div>
                                     <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                        <a href="https://0peron.github.io/api-capstone-project/" target="_blank">Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -119,6 +122,7 @@
                             <button id='modalBtn' class='modalBtn' data-modal='#modalThree'>
                                 <img src="images/FlicFinder.png" alt="movieFinder">
                             </button>
+                            <p>A quick and easy way to find movies that are playing at theaters near your zip code.</p>
                             <div id='modalThree' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
@@ -127,7 +131,7 @@
                                         <a href="https://github.com/0peron/node-movie-capstone" target="_blank">github</a>
                                     </div>
                                     <div class='demobtn'>
-                                        <a href="https://0peron.github.io/api-capstone-project/">Demo</a>
+                                        <a href="https://0peron.github.io/api-capstone-project/" target="_blank">Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,6 +145,7 @@
                             <button id='modalBtn' class='modalBtn' data-modal='#modalFour'>
                                 <img src="images/weathercheck.png" alt="react">
                             </button>
+                            <p>Weather Check allows you to search for a simple forecast in the city queryed. You can see the high and low temperatures, the chance of rain as well as wind direction and speed.</p>
                             <div id='modalFour' class='modal'>
                                 <div class='modal-content'>
                                     <span class='close'>&times</span>
@@ -150,7 +155,7 @@
                                             <a href="https://github.com/0peron/react-capstone" target="_blank">github</a>
                                         </div>
                                         <div class='demobtn'>
-                                            <a href="https://0peron.github.io/api-capstone-project/" target="_blank">Demo</a>
+                                            <a href="https://0peron.github.io/react-capstone/build/" target="_blank">Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -170,15 +175,12 @@
                 <h1>Skills</h1>
                 <div class='col-4'>
                     <img src="images/logos/HTML5.png" alt="html">
-                    <p>Indepth tagging</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/CSS3.png" alt="css">
-                    <p>Advanced styling</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/javascript.png" alt="js">
-                    <p>Creating powerful functions and precise targeting and event handeling</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/jquery.png" alt="jquery">
@@ -186,47 +188,47 @@
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/jsnode.png" alt="jsnode">
-                    <p>connecting the backend with the frontend</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/mongodb.png" alt="mongo">
-                    <p>utilizing databases to store information for later use</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/react.png" alt="react">
-                    <p>The new view layer</p>
                 </div>
                 <div class='col-4'>
                     <img src="images/logos/git.png" alt="git">
-                    <p>Handeling version control and backing up progress often</p>
                 </div>
             </div>
         </div>
     </section>
     <!--Footer-->
     <footer id='footer '>
-        <div class='col-md-8 '>
-            <p class=footText>Copyright: 2017 - Patrick Hubbard</p>
+        <div class="footerContainer">
+            <div class='col-md-8 '>
+                <p class=footText>Copyright: 2017 - Patrick Hubbard</p>
+            </div>
+            <div class='col-md-4 '>
+                <ul class='contact '>
+                    <li>
+                        <a href="mailto:phubbard89@gmail.com?subject=Hello" target="_top">
+                            <img src="images/logos/email.png" alt="email" class='footimg'>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/patrick-hubbard-b17283a0/" target="_blank">
+                            <img src="images/logos/linkedin.png" alt="linkedin" class='footimg'>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/0peron?tab=repositories" target="_blank">
+                            <img src="images/logos/github.png" alt="github" class='footimg'>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class='col-md-4 '>
-            <ul class='contact '>
-                <li>
-                    <a href="mailto:phubbard89@gmail.com?subject=Hello" target="_top">
-                        <i class='email '></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="linkedin" target="_blank">
-                        <i class=linkedin></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/0peron?tab=repositories" target="_blank">
-                        <i class='github '></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>

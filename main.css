@@ -3,6 +3,40 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+.navBtn:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: aqua;
+}
+
+section {
+    text-align: center;
+}
+
 
 /*Navigation*/
 
@@ -17,7 +51,7 @@ body {
     border-bottom: 1px solid #dedede;
     color: whitesmoke;
     background: black;
-    height: 40px;
+    height: 45px;
     top: 0;
 }
 
@@ -28,6 +62,11 @@ body {
     line-height: 20px;
     box-sizing: border-box;
     padding: 5px 0;
+}
+
+.navName a img {
+    height: 50px;
+    margin-left: 50px;
 }
 
 .navRight {
@@ -75,10 +114,10 @@ a {
 
 .hero-image {
     margin-top: 30px;
-    background: url("images/nature-mountain.jpg") 50% no-repeat;
-    background-position: 0 50px;
+    background: url("images/OpticalFiber.jpg") 50% no-repeat;
+    background-position: 0 10px;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     text-align: center;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -98,6 +137,16 @@ a {
 
 h1 {
     text-align: center;
+}
+
+.heroBtn {
+    background: #414141;
+    border: none;
+    color: #fff;
+    padding: 15px 25px;
+    margin-top: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 
@@ -137,6 +186,7 @@ h1 {
     padding: 20px;
     border: 1px solid #888;
     width: 40%;
+    text-align: center;
 }
 
 .close {
@@ -153,6 +203,35 @@ h1 {
     cursor: pointer;
 }
 
+.github {
+    font: bold 11px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid dodgerblue;
+    border-right: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+    border-left: 1px solid dodgerblue;
+}
+
+.demobtn {
+    font: bold 11px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid dodgerblue;
+    border-right: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+    border-left: 1px solid dodgerblue;
+}
+
+.github,
+.demobtn {
+    display: inline-block;
+}
+
 
 /*projects section*/
 
@@ -166,24 +245,10 @@ h1 {
 
 .col-5 {
     width: 60%;
-    height: 600px;
+    height: 550px;
     display: inline-block;
     border-bottom: 1px solid black;
-    margin-bottom: 30px;
-}
-
-.col-6 {
-    width: 60%;
-    height: 400px;
-    display: inline-block;
-    border-bottom: 1px solid black;
-    margin-bottom: 30px;
-}
-
-.col-6 img {
-    width: 450px;
-    height: 250px;
-    display: inline-block;
+    margin-bottom: 35px;
 }
 
 .col-5 h1 {
@@ -191,6 +256,21 @@ h1 {
 }
 
 .col-5 img {
+    width: 450px;
+    height: 250px;
+    display: inline-block;
+}
+
+.col-6 {
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.col-6 img {
     width: 450px;
     height: 250px;
     display: inline-block;
@@ -215,7 +295,7 @@ h1 {
 
 .col-4 {
     width: 25%;
-    height: 100px;
+    height: 90px;
     display: inline-block;
     margin-bottom: 10px;
 }
@@ -226,4 +306,41 @@ h1 {
 
 .col-4 p {
     text-align: center;
+}
+
+
+/*footer section*/
+
+.footerContainer {
+    margin-top: 75px;
+    border-top: 1px solid black;
+    height: 10%;
+}
+
+.col-md-8,
+.col-md-4 {
+    display: inline-block;
+}
+
+.col-md-8 {
+    padding: 20px;
+}
+
+.col-md-4 {
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.col-md-4 ul li {
+    display: inline;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.footimg {
+    height: 20px;
+    margin-right: 20px;
 }
