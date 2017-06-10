@@ -12,6 +12,13 @@
     .modal-content {
         width: 85%;
     }
+    .col-5 {
+        width: 90%;
+    }
+    .col-6 {
+        width: 90%;
+        height: 420px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -46,7 +53,7 @@
         height: 420px;
     }
     .modal-content {
-        width: 100%;
+        width: 85%;
     }
     /*footer*/
     .footerContainer {
