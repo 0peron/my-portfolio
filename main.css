@@ -189,6 +189,10 @@ h1 {
     text-align: center;
 }
 
+.modalBtn {
+    width: 100%
+}
+
 .close {
     color: #aaa;
     float: right;
@@ -256,8 +260,7 @@ h1 {
 }
 
 .col-5 img {
-    width: 450px;
-    height: 250px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -271,8 +274,7 @@ h1 {
 }
 
 .col-6 img {
-    width: 450px;
-    height: 250px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -314,7 +316,11 @@ h1 {
 .footerContainer {
     margin-top: 75px;
     border-top: 1px solid black;
-    height: 10%;
+    height: 100px;
+    background-color: gainsboro;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .col-md-8,

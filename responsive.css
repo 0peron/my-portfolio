@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1000px) {
+    /*Nav*/
+    .navRight li a {
+        padding: 0;
+    }
+    /*about*/
+    .col-2 {
+        width: 60%;
+        height: 340px;
+    }
+    /*projects*/
+    .modal-content {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*nav*/
+    .navName a img {
+        height: 30px;
+        margin-left: 2px;
+    }
+    .navRight li {
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .navRight li a {
+        padding: 0;
+    }
+    /*about*/
+    .col-2 {
+        width: 100%;
+    }
+    .col-2 p {
+        width: 100%;
+    }
+    .row {
+        width 100%;
+    }
+    /*projects*/
+    .col-5 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+        height: 420px;
+    }
+    .modal-content {
+        width: 100%;
+    }
+    /*footer*/
+    .footerContainer {
+        height: 10%;
+    }
+    .col-md-8,
+    .col-md-4 {
+        text-align: center;
+        float: none;
+    }
+    .col-md-4 {
+        padding-top: 5px;
+        margin-right: 0px;
+    }
+}
